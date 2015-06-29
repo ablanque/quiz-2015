@@ -12,3 +12,7 @@ exports.answer = function(req, res) {
 	}
 }
 
+//GET /quizes/author
+exports.author = function(req, res) {
+	res.render('quizes/author', {title: 'Quiz'});
+};
